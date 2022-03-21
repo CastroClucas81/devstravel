@@ -1,6 +1,7 @@
 import 'package:devstravel/models/app_data.dart';
 import 'package:devstravel/pages/city_page.dart';
 import 'package:devstravel/pages/continent_page.dart';
+import 'package:devstravel/pages/favorites_page.dart';
 import 'package:devstravel/pages/home_page.dart';
 import 'package:devstravel/pages/listcity_page.dart';
 import 'package:devstravel/pages/pre_load_page.dart';
@@ -33,6 +34,7 @@ class MyApp extends StatelessWidget {
         '/continent': (context) => ContinentPage(),
         '/listcity': (context) => ListCityPage(),
         '/city': (context) => CityPage(),
+        '/favorites': (context) => FavoritesPage(),
       },
       initialRoute: '/preload',
     );

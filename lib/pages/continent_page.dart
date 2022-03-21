@@ -12,12 +12,6 @@ class ContinentPage extends StatelessWidget {
   Widget build(BuildContext context) {
     GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey();
 
-    TextStyle styles = TextStyle(
-      fontSize: 15.0,
-      fontWeight: FontWeight.bold,
-      fontFamily: 'Roboto',
-    );
-
     void seeCity(ctx, continentIndex) {
       Navigator.pushNamed(ctx, '/listcity', arguments: continentIndex);
     }
